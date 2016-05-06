@@ -16,7 +16,9 @@ Fecha: 05/05/2016
 	std::cin >> a;
 	std::cout << "ingrese el segundo valor: ";
 	std::cin >> b;
-if (i!=a)
+if (a==0 || b==0)
+std::cout << "el resultado es: 0" ;
+else{
 do {c=c+b;
 i=i+1;
 } while(i!=a);
